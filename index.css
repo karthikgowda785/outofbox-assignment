@@ -1,0 +1,286 @@
+html {
+  scroll-behavior: smooth;
+  font-size: calc(0.6rem + 1vmin);
+}
+
+body {
+  font-family: "Mukta Mahee";
+  font-family: "Mukta Mahee";
+}
+
+#background1 {
+  background-image: url("images/Layer 2.png");
+  width: 100%;
+}
+
+#about {
+  background-image: url("images/Rectangle 4 copy.png");
+}
+
+#mission {
+  background-image: url("images/Layer 2 copy.png");
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+#form {
+  background-image: url("images/Rectangle 10.png");
+}
+
+.item-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  font-size: large;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #fff;
+  padding: 16px 2px;
+  background: transparent;
+  margin: 10px 20px;
+  color: white;
+  width: 45%;
+}
+
+input::placeholder {
+  color: #f4b69c;
+}
+
+#logo {
+  margin-top: 35px;
+  margin-left: 110px;
+  width: 265px;
+  height: 80px;
+}
+
+li {
+  display: inline-flex;
+}
+
+li>a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #feffff;
+  font-weight: 3 00;
+  font-family: "Mukta Mahee";
+  text-align: right;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+nav {
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: white;
+  border-style: none;
+  border-radius: 100em;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  font-family: "Mukta Mahee";
+  box-shadow: 5px 5px 20px 1px rgba(65, 64, 64, 0.37);
+  text-transform: uppercase;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+#button {
+  margin-left: 15px;
+  margin-right: 5px;
+  padding: 16px;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.main-heading {
+  width: 50%;
+  margin: auto;
+  margin-top: 96px;
+}
+
+
+.tagline {
+  font-size: 24px;
+  margin-top: 0;
+  color: #feb697;
+  font-weight: 400;
+  font-family: "Mukta Mahee";
+  text-align: center;
+}
+
+#img1 {
+  position: absolute;
+  z-index: -2;
+  width: 300px;
+  height: 280px;
+}
+
+#img2 {
+  position: absolute;
+  margin: 50px 0px 0px 50px;
+  z-index: -1;
+}
+
+#cropImg {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.aboutUsCOntainer {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutUs {
+
+  margin-top: 120px;
+  margin-left: 72px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #c2c2c2;
+  font-weight: 700;
+  font-family: "Mukta Mahee";
+  text-align: left;
+  margin: 0;
+}
+
+.spancolor {
+  color: #e5581b;
+}
+
+.aboutHeading {
+  color: #335656;
+  text-align: left;
+  margin: 0;
+  font-size: 80px;
+}
+
+.aboutInfo {
+  width: 60%;
+
+  padding: 64px 64px 32px 0px;
+}
+
+.aboutInfo>p {
+  height: auto;
+  font-size: 20px;
+  line-height: 36px;
+  color: #4d4c4c;
+  font-weight: 200;
+}
+
+
+
+.section2info {
+  font-size: 24px;
+  line-height: 46px;
+  color: #4d4c4c;
+  font-weight: 300;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h6 {
+  margin: 0px;
+  font-size: 28px;
+  color: #272727;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+.imgWrap {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding: 16px;
+}
+
+.imgWrap2 {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+  padding: 16px;
+}
+
+h9 {
+  margin: 0px;
+  font-size: 28px;
+  color: #272727;
+  font-weight: 600;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+.servicesHeading {
+  margin: 0px 15px;
+}
+
+.servicesHeading>p {
+  margin-left: 19px;
+  height: auto;
+  font-size: 18px;
+  line-height: 36px;
+  color: #4d4c4c;
+  font-weight: 400;
+  width: 100%;
+}
+
+h7 {
+  font-size: 25px;
+  line-height: 36px;
+  color: #4d4c4c;
+  font-weight: 400;
+}
+
+.h7 {
+  padding-top: 50px;
+}
+
+.services {
+  background-color: #f5f0ec;
+  text-align: center;
+  margin: 0px;
+}
+
+.clientsLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact {
+  /* background-color: #1f1e1e ; */
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #1E1E1E;
+}
