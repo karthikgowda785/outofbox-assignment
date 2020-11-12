@@ -5,7 +5,6 @@ html {
 
 body {
   font-family: "Mukta Mahee";
-  font-family: "Mukta Mahee";
 }
 
 #background1 {
@@ -23,264 +22,683 @@ body {
   color: white;
 }
 
+
 #form {
   background-image: url("images/Rectangle 10.png");
 }
-
-.item-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#background1,
+#about,
+#mission,
+#form {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
-input {
-  font-size: large;
-  outline: 0;
-  border-width: 0 0 1px;
-  border-color: #fff;
-  padding: 16px 2px;
-  background: transparent;
-  margin: 10px 20px;
-  color: white;
-  width: 45%;
-}
-
-input::placeholder {
-  color: #f4b69c;
-}
-
-#logo {
-  margin-top: 35px;
-  margin-left: 110px;
-  width: 265px;
-  height: 80px;
-}
-
-li {
-  display: inline-flex;
-}
-
-li>a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #feffff;
-  font-weight: 3 00;
-  font-family: "Mukta Mahee";
-  text-align: right;
-  margin-left: 15px;
-  margin-right: 5px;
-}
-
-nav {
-  margin-right: 150px;
-  margin-top: 30px;
-}
-
-button {
-  background-color: white;
-  border-style: none;
-  border-radius: 100em;
-  font-size: 20px;
-  color: black;
-  font-weight: 500;
-  font-family: "Mukta Mahee";
-  box-shadow: 5px 5px 20px 1px rgba(65, 64, 64, 0.37);
-  text-transform: uppercase;
-  padding: 8px 24px;
-  cursor: pointer;
-}
-
-#button {
-  margin-left: 15px;
-  margin-right: 5px;
-  padding: 16px;
-}
-
-
-.btn {
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  font-size: 64px;
-  color: #ffffff;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.main-heading {
-  width: 50%;
-  margin: auto;
-  margin-top: 96px;
-}
-
-
-.tagline {
-  font-size: 24px;
-  margin-top: 0;
-  color: #feb697;
-  font-weight: 400;
-  font-family: "Mukta Mahee";
-  text-align: center;
-}
-
-#img1 {
-  position: absolute;
-  z-index: -2;
-  width: 300px;
-  height: 280px;
-}
-
-#img2 {
-  position: absolute;
-  margin: 50px 0px 0px 50px;
-  z-index: -1;
-}
-
-#cropImg {
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.aboutUsCOntainer {
-  display: flex;
-  justify-content: center;
-}
-
-#aboutUs {
-
-  margin-top: 120px;
-  margin-left: 72px;
-}
-
-h4 {
-  font-size: 20px;
-  color: #c2c2c2;
-  font-weight: 700;
-  font-family: "Mukta Mahee";
-  text-align: left;
-  margin: 0;
-}
-
-.spancolor {
-  color: #e5581b;
-}
-
-.aboutHeading {
-  color: #335656;
-  text-align: left;
-  margin: 0;
-  font-size: 80px;
-}
-
-.aboutInfo {
-  width: 60%;
-
-  padding: 64px 64px 32px 0px;
-}
-
-.aboutInfo>p {
-  height: auto;
-  font-size: 20px;
-  line-height: 36px;
-  color: #4d4c4c;
-  font-weight: 200;
-}
-
-
-
-.section2info {
-  font-size: 24px;
-  line-height: 46px;
-  color: #4d4c4c;
-  font-weight: 300;
-  width: 60%;
-  text-align: center;
-  margin: auto;
-}
-
 h3 {
-  font-size: 28px;
+  font-size: 20px;
 }
 
-h6 {
-  margin: 0px;
-  font-size: 28px;
-  color: #272727;
-  font-weight: 400;
-  line-height: 32px;
-  margin-left: 20px;
+@media screen and (max-width: 3000px) and (min-width: 481px) {
+  #mission {
+    padding: 64px 128px;
+  }
+  #mission > div {
+    display: flex;
+  }
+  #mission > div >p {
+    margin:0;
+    margin-left: 64px;
+    font-size: 32px;
+  }
+  .menu {
+    display: none;
+  }
+  .item-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input {
+    font-size: large;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #fff;
+    padding: 16px 2px;
+    background: transparent;
+    margin: 10px 20px;
+    color: white;
+    width: 45%;
+  }
+
+  input::placeholder {
+    color: #f4b69c;
+  }
+
+  #logo {
+    margin-top: 35px;
+    margin-left: 110px;
+    width: 265px;
+    height: 80px;
+  }
+
+  li {
+    display: inline-flex;
+  }
+
+  li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #feffff;
+    font-weight: 3 00;
+    font-family: "Mukta Mahee";
+    text-align: right;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+
+  nav {
+    margin-right: 150px;
+    margin-top: 30px;
+  }
+
+  button {
+    background-color: white;
+    border-style: none;
+    border-radius: 100em;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    font-family: "Mukta Mahee";
+    box-shadow: 5px 5px 20px 1px rgba(65, 64, 64, 0.37);
+    text-transform: uppercase;
+    padding: 8px 24px;
+    cursor: pointer;
+  }
+  #myLinks > li > button {
+    padding-left: 16px;
+  }
+
+  #button {
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 16px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn > button {
+    margin-bottom: 256px;
+    margin-top: 16px;
+  }
+
+  h1 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  .main-heading {
+    width: 50%;
+    margin: auto;
+    margin-top: 96px;
+  }
+
+  .tagline {
+    font-size: 24px;
+    margin-top: 0;
+    color: #feb697;
+    font-weight: 400;
+    font-family: "Mukta Mahee";
+    text-align: center;
+  }
+
+  #img1 {
+    position: absolute;
+    z-index: -2;
+    width: 300px;
+    height: 280px;
+  }
+
+  #img2 {
+    position: absolute;
+    margin: 50px 0px 0px 50px;
+    z-index: -1;
+  }
+
+  #cropImg {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .aboutUsCOntainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #aboutUs {
+    margin-top: 120px;
+    margin-left: 72px;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: #c2c2c2;
+    font-weight: 700;
+    font-family: "Mukta Mahee";
+    text-align: left;
+    margin: 0;
+  }
+  .serviceFont > h4 {
+    margin-left: 60px;
+  }
+  .serviceimage {
+    padding-top: 48px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+
+
+  .aboutHeading {
+    color: #335656;
+    text-align: left;
+    margin: 0;
+    font-size: 80px;
+  }
+
+  .aboutInfo {
+    width: 60%;
+    padding: 64px 64px 32px 0px;
+  }
+
+  .aboutInfo > p {
+    height: auto;
+    font-size: 20px;
+    line-height: 36px;
+    color: #4d4c4c;
+    font-weight: 200;
+  }
+
+  .section2info {
+    font-size: 24px;
+    line-height: 46px;
+    color: #4d4c4c;
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+
+  h6 {
+    margin: 0px;
+    font-size: 28px;
+    color: #272727;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 20px;
+  }
+
+  .imgWrap {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    padding: 16px;
+  }
+  .wrap{
+    width: 40px;
+    height: 40px;
+  }
+
+  .imgWrap2 {
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    padding: 16px;
+  }
+  .imgWrap2size {
+    width:80px;
+    height:80px;
+  }
+
+  h9 {
+    margin: 0px;
+    font-size: 28px;
+    color: #272727;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: 20px;
+  }
+
+  .servicesHeading {
+    margin: 0px 15px;
+  }
+
+  .servicesHeading > p {
+    margin-left: 19px;
+    height: auto;
+    font-size: 18px;
+    line-height: 36px;
+    color: #4d4c4c;
+    font-weight: 400;
+    width: 100%;
+  }
+  .service2image{
+    padding:40px 0px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 80%; margin: auto;
+  }
+
+  h7 {
+    font-size: 25px;
+    line-height: 36px;
+    color: #4d4c4c;
+    font-weight: 400;
+  }
+
+  .h7 {
+    padding-top: 50px;
+  }
+
+  .services {
+    background-color: #f5f0ec;
+    text-align: center;
+    margin: 0px;
+  }
+  #services > .serviceFont{
+    margin-left: 6.5%; 
+    margin-top: 80px;
+  }
+
+  .clientsLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h8{
+    padding-top: 80px; 
+  }
+
+  .h8 > h2{
+    margin: 0px;
+    color: white; 
+    font-size: 40px; 
+    text-align: center;
+  }
+
+  .contact {
+    /* background-color: #1f1e1e ; */
+    display: flex;
+    justify-content: space-between;
+  }
+  form{
+    padding: 12px 128px
+  }
+  .submitbutton{
+    display: flex; 
+    justify-content: 
+    center; 
+    padding: 100px 0px;
+  }
+  footer {
+    background-color: #1e1e1e;
+    padding: 48px 128px;
+  }
+  .footerLogo{
+    width:160px;
+    height:140px;
+  }
+  .address{
+    margin-left: 48px;
+  }
+  .address > p{
+    width: 60%;
+  }
+  .socialcontact{
+    width:32px;
+  }
+  .rights{
+    font-size: 18px;
+  }
 }
 
-.imgWrap {
-  display: flex;
-  align-items: center;
-  width: 25%;
-  padding: 16px;
+@media screen and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+  #mission {
+    padding: 10px 20px;
+  }
+  .item-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #myLinks {
+    display: none;
+  }
+  #logo {
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 30px;
+  }
+  .menu > .icon {
+    width: 50px;
+
+    color: whitesmoke;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline;
+    position: absolute;
+    background-color: #333333;
+    padding: 16px;
+    /* opacity: 0.8; */
+    border-style: none;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 1px 4px 4px rgba(0,0,0,0.25);
+  }
+
+  li > a {
+    text-decoration: none;
+    color: #feffff;
+    font-weight: 3 00;
+    font-family: "Mukta Mahee";
+    margin-left: 0%;
+    margin-right: 5px;
+    font-size: 17px;
+  }
+
+  button {
+    background-color: white;
+    border-style: none;
+    border-radius: 100em;
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    font-family: "Mukta Mahee";
+    box-shadow: 5px 5px 20px 1px rgba(65, 64, 64, 0.37);
+    text-transform: uppercase;
+    padding: 8px 24px;
+    cursor: pointer;
+  }
+nav{
+  background-color: Permalink;
 }
+  #myLinks > li > a > button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #button {
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 16px;
+  }
 
-.imgWrap2 {
-  display: flex;
-  align-items: flex-start;
-  width: 45%;
-  padding: 16px;
-}
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
 
-h9 {
-  margin: 0px;
-  font-size: 28px;
-  color: #272727;
-  font-weight: 600;
-  line-height: 32px;
-  margin-left: 20px;
-}
+  .btn > button {
+    margin-bottom: 100px;
+    margin-top: 16px;
+  }
 
-.servicesHeading {
-  margin: 0px 15px;
-}
+  h1 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
 
-.servicesHeading>p {
-  margin-left: 19px;
-  height: auto;
-  font-size: 18px;
-  line-height: 36px;
-  color: #4d4c4c;
-  font-weight: 400;
-  width: 100%;
-}
+  .main-heading {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .tagline {
+    font-size: 10px;
+    margin-top: 0;
+    color: #feb697;
+    font-weight: 400;
+    font-family: "Mukta Mahee";
+    text-align: center;
+  }
+  
 
-h7 {
-  font-size: 25px;
-  line-height: 36px;
-  color: #4d4c4c;
-  font-weight: 400;
-}
+  #img1 {
+    position: absolute;
+    z-index: -2;
+    width: 150px;
+    height: 150px;
+  }
 
-.h7 {
-  padding-top: 50px;
-}
+  #img2 {
+    position: absolute;
+    margin: 5% 0px 0px 5%;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+  }
 
-.services {
-  background-color: #f5f0ec;
-  text-align: center;
-  margin: 0px;
-}
+  #cropImg {
+    display: flex;
+    margin:0% 60% 0% 30%;
 
-.clientsLogo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  }
 
 
-.contact {
-  /* background-color: #1f1e1e ; */
-  display: flex;
-  justify-content: space-between;
-}
+  .aboutUsCOntainer {
+    display: block;
 
-footer {
-  background-color: #1E1E1E;
+  }
+
+  #aboutUs {
+    text-align: center;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 15px;
+    color: #c2c2c2;
+    font-weight: 700;
+    font-family: "Mukta Mahee";
+    margin: 0;
+  }
+
+  .aboutHeading {
+    color: #335656;
+    text-align: left;
+    width: 50%;
+    margin: 0% 25% 0% 41%;
+    font-size: 40px;
+  }
+  .aboutInfo > p {
+    height: auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4d4c4c;
+    font-weight: 200;
+  }
+  .section2info {
+    font-size: 15px;
+    line-height: 25px;
+    color: #4d4c4c;
+    font-weight: 300;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .imgWrap {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    padding: 16px;
+  }
+  .wrap {
+    width: 30px;
+    height: 30px;
+  }
+  .serviceimage {
+    padding-top: 48px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  h6 {
+    margin: 0px;
+    font-size: 13px;
+    color: #272727;
+    font-weight: 400;
+    line-height: 15px;
+    margin-left: 10px;
+  }
+  #mission > div >p {
+    margin:0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .serviceFont > h4 {
+    text-align: center;
+    font-size: 20px;
+    /* margin-top: 20px; */
+  }
+
+  .imgWrap2 {
+    display: flex;
+    align-items: center ;
+    /* width: 45%; */
+    padding: 16px;
+  }
+  .imgWrap2size {
+    width:50px;
+    height:50px;
+  }
+  .servicesHeading {
+    margin: 0px 15px;
+  }
+  h9 {
+    margin: 0px;
+    font-size: 20px;
+    color: #272727;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: 20px;
+  }
+  .servicesHeading > p {
+    margin:0px ;
+    margin-left: 19px;
+    height: auto;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4d4c4c;
+    font-weight: 400;
+    width: 100%;
+  }
+  .clientsLogosize{
+    max-width: 100%;
+  }
+  h7 {
+    font-size: 15px;
+    /* width: 10%; */
+    line-height: 36px;
+    color: #4d4c4c;
+    font-weight: 400;
+  }
+
+  .h7 {
+    padding-top: 25px;
+  }
+
+  .services {
+    background-color: #f5f0ec;
+    text-align: center;
+    margin: 0px;
+  }
+  #services > .serviceFont{
+    margin-left: 6.5%; 
+    margin-top: 80px;
+  }
+
+  .clientsLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h8{
+    padding-top: 50px; 
+  }
+  .h8 > h2{
+    margin: 0px;
+    color: white; 
+    font-size: 30px; 
+    text-align: center;
+  }
+  form{
+    padding: 12px 12px
+  }
+  input {
+    font-size: small;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #fff;
+    padding: 8px 0px;
+    background: transparent;
+    margin: 10px 20px;
+    color: white;
+    width: 40%;
+  }
+
+  input::placeholder {
+    color: #f4b69c;
+  }
+  .submitbutton{
+    display: flex; 
+    justify-content: center; 
+    padding: 25px 0px;
+  }
+  footer {
+    background-color: #1e1e1e;
+    padding:25px 25px;
+  }
+  .footerLogo{
+    width:80px;
+    height:70px;
+  }
+  .address{
+    margin-left: 48px;
+  }
+  .address > p{
+    width: 80%;
+    font-size: 10px;
+  }
+  .socialcontact{
+    width:20px;
+    margin-left: 5px;
+  }
+  .rights{
+    margin-left: 15px;
+    font-size: 9px;
+  }
 }
